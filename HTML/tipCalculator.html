@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Tip Calculator</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <h1 id="myTimer">Tip Calculator</h1>
+  
+  <div class="card text-bg-info mb-3 shadow-lg p-3 mb-5 bg-body-info rounded" style="max-width: 20rem;">
+    <div class="card-body">
+      <h5 class="card-title">Calculate Tip</h5>
+    
+      <form class="row g-3">
+        <label for="amount" class="visually-hidden">Amount</label>
+        <input type="text" class="form-control" id="amount" placeholder="Bill Amount">
+        
+        <label for="tip" class="visually-hidden">Tip %</label>
+        <input type="text" class="form-control" id="tip" placeholder="Tip %">
+        
+        <label for="people" class="visually-hidden">Amount of People</label>
+        <input type="text" class="form-control" id="people" placeholder="Amount of People">
+    
+        <button type="button" id="button" class="btn btn-primary mb-3">Calculate</button>
+        
+        <p id="mytip">Amount With Tip: </p>
+        <p id="perPerson">Per Person Amount: </p>
+      </form>
+    
+    </div>
+  </div>
+  
+ 
+
+  
+  
+  
+  
+  <script src="scripts/tipCalculator.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
