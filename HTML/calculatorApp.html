@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Hello, World!</title>
+  <link rel="stylesheet" href="styles/calculator.css"/>
+</head>
+<body>
+  
+  <div id="textDiv">
+    <textarea id="textarea" placeholder="0"></textarea>
+  </div>
+  
+  <div id="buttonDiv">
+    
+    <button value="C" id="C" style="color:red" onclick="clearArea()">C</button>
+    <button value="0" id="0" onclick="showNumbers(0)">0</button>
+    <button value="**" id="**" onclick="showNumbers('**')">^</button>
+    <button value="/" id="/" onclick="showNumbers('/')">÷</button>
+    
+    <button value="7" id="7" onclick="showNumbers(7)">7</button>
+    <button value="8" id="8" onclick="showNumbers(8)">8</button>
+    <button value="9" id="9" onclick="showNumbers(9)">9</button>
+    <button value="*" id="*" onclick="showNumbers('*')">×</button>
+    
+    <button value="4" id="4" onclick="showNumbers(4)">4</button>
+    <button value="5" id="5" onclick="showNumbers(5)">5</button>
+    <button value="6" id="6" onclick="showNumbers(6)">6</button>
+    <button value="-" id="-" onclick="showNumbers('-')">-</button>
+    
+    <button value="1" id="1" onclick="showNumbers(1)">1</button>
+    <button value="2" id="2" onclick="showNumbers(2)">2</button>
+    <button value="3" id="3" onclick="showNumbers(3)">3</button>
+    <button value="+" id="+" onclick="showNumbers('+')">+</button>
+    
+    <button value="=" id="equal" onclick="calculate()">=</button>
+    
+  </div>
+  
+  <script src="scripts/calculatorApp.js"></script>
+</body>
+</html>
