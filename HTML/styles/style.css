@@ -1,0 +1,128 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  display: block;
+  align-self: center;
+  margin-bottom: 60px;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin: 0px 10px;
+  margin: 0 auto;
+}
+
+#myClock {
+  font-family: "Courier New", monospace;
+  box-shadow: ghostwhite;
+  box-sizing: 60px;
+  border-radius: 7px;
+  /*border: 2px solid white;*/
+  padding: 10px 0px;
+}
+
+h6 {
+  direction: ltr;
+  align-items: end;
+  width: 100%;
+  /*margin-bottom: 80px;*/
+  margin-top: 0px;
+}
+
+
+div {
+  width: 100%;
+  margin: 40px 0px;
+  /*border: 2px dotted gray;*/
+  border-radius: 7px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#colorDiv {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#myTimer {
+  font-family: "Times New Roman", serif;
+  border-radius: 7px;
+  
+  /*padding: 10px 0px;*/
+}
+
+img {
+  width: 130px;
+  height: 130px;
+}
+
+.imgButton {
+  padding: 0px;
+  background: black;
+}
+
+h3 {
+  align-self: center;
+  text-align: center;
+}
+
+textarea {
+  display: block;
+  border-radius: 7px;
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+  border: 2px solid black;
+  background-color: white;
+}
+
+button {
+  border-radius: 7px;
+  font-family: "Courier New", monospace;
+  background-color: green;
+  font-size: 15px;
+  color: white;
+  /*width: 100px;*/
+  padding: 8px 15px;
+  margin: 0px 10px;
+}
+
+#todoBtn {
+  border-radius: 7px;
+  font-family: "Courier New", monospace;
+  background-color: gray;
+  font-size: 15px;
+  color: white;
+  width: 50%;
+  padding: 8px 15px;
+  margin: 0px 10px;
+  /*border: 3px solid white;*/
+}
+
+
+label {
+  display: block;
+  margin: 0px 10px:
+}
+
+.form-control {
+  width: 90%;
+  display: inline;
+}
+
+
+
