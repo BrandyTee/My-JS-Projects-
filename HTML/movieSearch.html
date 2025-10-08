@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Movie Search</title>
+</head>
+<body>
+  <h2>Movie Search</h2>
+  
+  
+  <form >
+    <div class="col-auto">
+      <input type="text" class="form-control" id="input" placeholder="Captain America" style="display: inline; width: 60%;">
+      <button type="button" class="btn btn-primary " id="inputBtn" style="display: inline; width: 30%;">Enter Title</button>    
+    </div>    
+  </form>
+  
+  
+  <div class="card" style="width: 22rem; margin-top: 30px; margin-bottom: 30px;">
+    <div class="card-header text-bg-secondary" id="title">
+      Enter Title
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item" id="year">Release Year: </li>
+      <li class="list-group-item" id="rated">Rated: </li>
+      <li class="list-group-item" id="cast">Cast: </li>
+      <li class="list-group-item" id="genre">Genre:  </li>
+      <li class="list-group-item" id="director">Director: </li>
+      <li class="list-group-item" id="writer">Writer: </li>
+      <li class="list-group-item" id="money">Box Office: </li>
+      <li class="list-group-item" id="rating">Ratings: </li>
+      <li class="list-group-item" id="plot">Plot: </li>      
+    </ul>
+  </div>
+  
+  
+  <script src="scripts/movieSearch.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
