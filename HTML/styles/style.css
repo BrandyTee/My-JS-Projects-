@@ -224,6 +224,43 @@ label {
   
 }
 
+a.disabled {
+  pointer-events: none;
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+#horizontal {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  scroll-behavior: smooth;
+  padding: 10px;
+  white-space: nowrap;
+}
+
+.item {
+  flex: 0 0 auto;
+  height: 200px;
+  width: 400px;
+}
+
+#repositories {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  scroll-behavior: smooth;
+  white-space: nowrap;
+}
+
+.repo {
+  flex: 0 0 auto;
+  width: 400px;
+  height: 300px;
+}
+
+
+
 
 
 
